@@ -1,0 +1,242 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+% Test
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{graphicx}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage[urw-garamond]{mathdesign}
+% \usepackage{charter}
+%\usepackage{lmodern}
+\usepackage[OT1]{fontenc}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{1.10in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.00\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{{\small #1}} & {\textbf{\small #2}} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \emph{}{\small#1} & \emph{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \upshape Victor Kreitmann} \\ \vspace{1pt}
+    %123 Street Name, Town, State 12345 \\ \vspace{1pt}%
+    \small \raisebox{-0.1\height}\faPhone\ +33.7.68.62.97.17 ~
+    \href{https://www.linkedin.com/in/victor-kreitmann/}{\raisebox{-0.2\height}\faLinkedin\ \underline{Linkedin}}  ~    
+    \href{mailto:victor.kreitmann@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{victor.kreitmann@gmail.com}} ~ 
+    \vspace{0pt}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{Éducation}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sciences Po}{2022 - 2024}
+      {Master, Économie du développement}{Paris, France}
+      
+      \resumeSubheading
+      {École normale supérieure (ENS Ulm)}{2021 - 2024}
+      {Master, Géographie \& Géopolitique}{Paris, France}
+      \resumeItemListStart
+      \resumeItem{\underline{Mémoire M1}: Catastrophes naturelles: faiseuses de paix ou vectrices de guerre? Mesurer l'effet des catastrophes naturelles sur les guerres civiles.\emph{(en français, \href{https://drive.google.com/file/d/1O6ke_2wZjExpSnBBnSKN7shPb0E3ZBgg/view?usp=sharing}{\underline{ici}})}}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {Université Paris II Panthéon-Assas}{2020 - 2021}
+      {Licence, Droit}{Paris, France}
+      \resumeItemListStart
+      \resumeItem{Moyenne : 14.5/20}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {McGill University}{2017 - 2020}
+      {Licence, Science politique}{Montréal, QC}
+      \resumeItemListStart
+      \resumeItem{First Class Honours. GPA: 3.64/4.00}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------EXPERIENCE-----------
+\section{Expériences}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Secrétariat général des affaires européennes - Frontières, asile, et migrations}{avril - septembre 2022}
+      {Chargé de mission (stagiaire)}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Suivi de la réponse de l'UE à la crise des réfugiés ukrainiens et participation à informer la Commission et les États membres de la réponse française.}
+        \resumeItem{Contribution à la structuration de la position et de l'engagement diplomatique français dans les questions de Justice \& Affaires intérieures : négociations du règlement Eurodac, de la Déclaration de solidarité, de la réforme du Code Frontières Schengen.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Paris School of Economics/Harvard University}{mai - octobre 2021}
+      {Assistant de recherche (temps partiel)}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Recherche portant principalement sur le positionnement électoral et la communication des candidats aux élections cantonales et législatives, en s'appuyant sur les professions électorales.}
+        \resumeItem{En charge de la collecte des données en vue de la structuration d'une nouvelle base de données.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Ministère des Armées - Département de l'enseignement militaire supérieur}{janvier - juin 2021}
+      {Chargé de mission (stagiaire)}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Recherche dans le cadre de l'élaboration de nouveaux enseignements pour la scolarité des officiers-supérieurs à l'École de Guerre: géopolitique du cyber-espace, militarisation de l'espace, les armées et le changement climatique, droit international humanitaire, etc.}
+    \resumeItemListEnd
+    
+     \resumeSubheading
+      {Cour nationale du droit d'asile - Centre de recherche}{juillet - décembre 2020}
+      {Assistant de recherche (stagiaire)}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Recherche portant sur la situation politique et sécuritaire ainsi que les principales menaces aux droits humains dans les pays d'origine des demandeurs d'asile: fiche-pays de la Mauritanie, rapport sur les groupes djihadistes sévissant au Sahel, rapport sur l'accord de paix soudanais (2020), etc.}
+        \resumeItem{Élaboration et mise en oeuvre d'une méthodologie utilisée afin d'estimer les niveaux de violence par région en s'appuyant sur les données de la base de données ACLED.}
+    \resumeItemListEnd      
+
+     \resumeSubheading
+      {National Taiwan University}{avril - juin 2020}
+      {Assistant de recherche (temps partiel)}{Taipei, Taiwan}
+      \resumeItemListStart
+        \resumeItem{Recherche portant sur les interactions entre l'épidémie de Covid-19 et la politique intérieure chinoise.}
+        \resumeItem{Réalisation de revues de la littérature (en français et anglais), de littérature académique et littérature grise (presse spécialisée, think tanks, etc.)}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Compétences}
+\vspace{-4pt}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+    \textbf{Générales}}{: Recherche, rédaction/synthèse, réflexion critique, adaptabilité, attention au détail, éthique de travail.} \\
+     \textbf{Techniques}{: R, \LaTeX,  R Markdown, GitHub, Google Sites.} \\
+     \textbf{Linguistiques}{: Français (langue maternelle), Anglais (bilingue), Espagnol (B2), Mandarin (B1/A2).} \\
+    }
+ \end{itemize}
+ \vspace{-10pt}
+ 
+\section{Intérêts}
+\vspace{-4pt}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+    \textbf{Académiques/professionnels}{: Développement, migration, évaluation des politiques publiques, conflits et insécurité intra-étatiques.} \\
+    \textbf{Personnels}{: Échecs, podcasts, livres non-fictionnels, escalade, vulgarisation scientifique.} \\
+%     \textbf{Technical (still learning!)}{: R, \LaTeX, GitHub,  Google Sites} \\
+    }}
+ \end{itemize}
+ 
+\begin{center}
+    \emph{Recommandations académiques et professionnelles disponibles à la demande}.
+\end{center}
+ 
+\end{document}
