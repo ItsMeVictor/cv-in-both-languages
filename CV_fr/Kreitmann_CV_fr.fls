@@ -1,7 +1,7 @@
-PWD /Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/test/Kreitmann_CV_fr
+PWD /Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr
 INPUT /opt/local/etc/texmf/texmf.cnf
 INPUT /opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/test/Kreitmann_CV_fr/Kreitmann_CV_fr.tex
+INPUT /Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex
 OUTPUT Kreitmann_CV_fr.log
 INPUT /opt/local/share/texmf-texlive/tex/latex/base/article.cls
 INPUT /opt/local/share/texmf-texlive/tex/latex/base/article.cls

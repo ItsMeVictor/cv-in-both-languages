@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/MacPorts 2022.62882_1) (preloaded format=pdflatex 2022.9.20)  20 SEP 2022 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/MacPorts 2022.62882_1) (preloaded format=pdflatex 2022.9.20)  21 SEP 2022 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/test/Kreitmann_CV_fr/Kreitmann_CV_fr.tex"
-(/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/test/Kreitmann_CV_fr/Kreitmann_CV_fr.tex
+**"/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex"
+(/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/opt/local/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -421,14 +421,14 @@ Package rerunfilecheck Info: File `Kreitmann_CV_fr.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14117 strings out of 478268
- 243977 string characters out of 5848327
+ 243995 string characters out of 5848327
  558382 words of memory out of 5000000
  32145 multiletter control sequences out of 15000+600000
  476087 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,446b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,452b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/local/share/texmf-texlive/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/local/share/texmf-texlive/fonts/enc/dvips/fontawesome5/fa5free2.enc}</opt/local/share/texmf-texlive/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/local/share/texmf-texlive/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Kreitmann_CV_fr.pdf (1 page, 119593 bytes).
+Output written on Kreitmann_CV_fr.pdf (1 page, 119635 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
