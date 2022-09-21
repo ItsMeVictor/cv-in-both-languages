@@ -20,7 +20,7 @@ jobs:
       with:
         source_file: 'cv-in-both-languages/CV_eng/Kreitmann_CV_eng.pdf' # Folder to copy
         destination_repo: 'ItsMeVictor/ItsMyCV/' # Target repo
-        destination_folder: 'Kreitmann_CV_eng.pdf' # Folder where to copy it
+        destination_folder: '' # Folder where to copy it
         user_email: 'victor.kreitmann@gmail.com'
         user_name: 'ItsMeVictor'
         commit_message: "AUTO: Syncing my CV"
