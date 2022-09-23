@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1663784378 "/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex" "Kreitmann_CV_fr.pdf" "Kreitmann_CV_fr" 1663784379
-  "/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex" 1663784378 9309 8e6de87d9d99f278b497b3185f7c63c2 ""
+["pdflatex"] 1663923652 "/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex" "Kreitmann_CV_fr.pdf" "Kreitmann_CV_fr" 1663923652
+  "/Users/victorkreitmann/Desktop/synced/life/academia-pro/my cv/cv in both languages/CV_fr/Kreitmann_CV_fr.tex" 1663923651 9311 38534d8ffd5d1c49f51bc1f498b3e5f8 ""
   "/opt/local/etc/texmf/texmf.cnf" 1663658458 38223 15a42df9bf1a1473568a064f22c2d139 ""
   "/opt/local/share/texmf-texlive/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1646022643 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/opt/local/share/texmf-texlive/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1646022643 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -109,9 +109,9 @@
   "/opt/local/share/texmf-texlive/tex/latex/url/url.sty" 1556757999 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map" 1663662955 4410316 e3453d3d553f6c63b6bd1a252deef762 ""
   "/opt/local/var/db/texmf/web2c/pdftex/pdflatex.fmt" 1663662819 2825822 804bc30c3935e61fb01e622f8a77be62 ""
-  "Kreitmann_CV_fr.aux" 1663784379 1198 6e021c8632ca81ce5190781d1d2b0898 "pdflatex"
-  "Kreitmann_CV_fr.out" 1663784379 382 7fa711e9f3ff805847ee112d37968970 "pdflatex"
-  "Kreitmann_CV_fr.tex" 1663784378 9309 8e6de87d9d99f278b497b3185f7c63c2 ""
+  "Kreitmann_CV_fr.aux" 1663923652 1198 6e021c8632ca81ce5190781d1d2b0898 "pdflatex"
+  "Kreitmann_CV_fr.out" 1663923652 382 7fa711e9f3ff805847ee112d37968970 "pdflatex"
+  "Kreitmann_CV_fr.tex" 1663923651 9311 38534d8ffd5d1c49f51bc1f498b3e5f8 ""
   (generated)
   "Kreitmann_CV_fr.aux"
   "Kreitmann_CV_fr.log"
